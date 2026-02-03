@@ -15,14 +15,6 @@ const Projects = ({ setArtist }) => {
           project.category.includes(filter) // Verifica si el proyecto tiene la categoría seleccionada
         );
 
-  // Define the breakpoint columns for the Masonry layout
-  const breakpointColumnsObj = {
-    default: 4,
-    1100: 3,
-    700: 2,
-    500: 1
-  };
-
   const handleFilter = (category, artistName) => {
     setFilter(category);
     setArtist(artistName); // Set artist name based on the category
@@ -69,11 +61,7 @@ const Projects = ({ setArtist }) => {
 				</button>
 			</div>
 
-			<Masonry
-				breakpointCols={breakpointColumnsObj}
-				className='masonry-grid'
-				columnClassName='masonry-grid-column'
-			>
+			<div className='masonry-grid'>
 				{filteredProjects.map((project, index) => (
 					<div className='masonry-grid-item' key={index}>
 						<Link to={`/projects/${project.id}`}>
@@ -81,7 +69,7 @@ const Projects = ({ setArtist }) => {
 						</Link>
 					</div>
 				))}
-			</Masonry>
+			</div>
 		</div>
   );
 };

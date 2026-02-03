@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 
 function Navbar({ theme, toggleTheme }) {
-  // Función para hacer scroll a una sección específica dentro de la misma página
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) {
@@ -12,7 +11,18 @@ function Navbar({ theme, toggleTheme }) {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <span className="navbar-brand">Investigación Urgente</span>
+        {/* LOGO */}
+        <span className="navbar-brand d-flex align-items-center">
+          <img
+            src={
+              theme === "dark"
+                ? "/URGENTE H_COLOR N.svg"
+                : "/URGENTE H_COLOR.svg"
+            }
+            alt="Investigación Urgente"
+            height="32"
+          />
+        </span>
 
         <button
           className="navbar-toggler"
@@ -59,6 +69,7 @@ function Navbar({ theme, toggleTheme }) {
                 Objetivos
               </a>
             </li>
+
             <li className="nav-item">
               <a
                 href="#objectives"

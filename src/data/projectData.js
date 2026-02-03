@@ -480,6 +480,75 @@ const projectData = [
 			},
 		],
 	},
+	{
+		id: 18,
+		images: [
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+		],
+		videolink: "",
+		title: "Nombre 1",
+		category: ["Economias locales y sostenibles", "Derechos Humanos"],
+		place: "Atlixco, Mexico",
+		year: "2024",
+		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		description: [
+			{
+				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
+			},
+			{
+				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
+			},
+		],
+	},
+	{
+		id: 19,
+		images: [
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+		],
+		videolink: "",
+		title: "Nombre 2",
+		category: ["Economias locales y sostenibles", "Derechos Humanos"],
+		place: "Atlixco, Mexico",
+		year: "2024",
+		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		description: [
+			{
+				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
+			},
+			{
+				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
+			},
+		],
+	},
+	{
+		id: 20,
+		images: [
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+			"https://placehold.co/600x400",
+		],
+		videolink: "",
+		title: "Nombre 3",
+		category: ["Economias locales y sostenibles", "Derechos Humanos"],
+		place: "Atlixco, Mexico",
+		year: "2024",
+		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		description: [
+			{
+				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
+			},
+			{
+				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
+			},
+		],
+	},
 ];
 
 export default projectData;

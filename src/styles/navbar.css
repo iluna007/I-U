@@ -1,9 +1,0 @@
-/* Dark mode */
-body[data-bs-theme="dark"] .navbar {
-  border-bottom: 1px solid #ffffff;
-}
-
-/* Light mode */
-body[data-bs-theme="light"] .navbar {
-  border-bottom: 1px solid #000000;
-}

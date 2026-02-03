@@ -1,0 +1,50 @@
+/* Base border definition */
+.navbar,
+.about-box,
+.custom-footer,
+#contact {
+  border-width: 1px;
+  border-style: solid;
+  transition:
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Dark mode */
+body[data-bs-theme="dark"] .navbar,
+body[data-bs-theme="dark"] .about-box,
+body[data-bs-theme="dark"] .custom-footer,
+body[data-bs-theme="dark"] #contact {
+  border-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body[data-bs-theme="dark"] .custom-footer a svg {
+  color: #ffffff;
+}
+
+/* Light mode */
+body[data-bs-theme="light"] .navbar,
+body[data-bs-theme="light"] .about-box,
+body[data-bs-theme="light"] .custom-footer,
+body[data-bs-theme="light"] #contact {
+  border-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body[data-bs-theme="light"] .custom-footer a svg {
+  color: #000000;
+}
+
+/* Hover animation for icons */
+.custom-footer a svg {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.custom-footer a:hover svg {
+  transform: scale(1.1);
+  color: var(--bs-primary);
+}

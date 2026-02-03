@@ -8,7 +8,7 @@ function ObjectivesSection() {
           
           <div className="col-md-4 mb-3 mb-md-0">
             <h2 className="display-6 fw-bold">
-              ¿Cuáles son nuestros objetivos?
+              Objetivos
             </h2>
           </div>
 

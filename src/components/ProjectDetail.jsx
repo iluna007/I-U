@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import projectData from "../data/projectData";
-import "../pages/Projectdetail.css";
+import "../styles/projectdetail.css";
 
 
 

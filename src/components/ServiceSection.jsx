@@ -81,7 +81,7 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
   return (
     <section id="services" className="py-5 border-top">
       <div className="container">
-        <h2 className="text-center fw-bold mb-5">Nuestros Servicios</h2>
+        <h1 className="text-center fw-bold mb-5">¿Qué hacemos?</h1>
 
         <div className="row g-4">
           {services.map((service, index) => (

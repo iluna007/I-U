@@ -25,7 +25,7 @@ body[data-bs-theme="dark"] #contact,
 body[data-bs-theme="dark"] #services,
 body[data-bs-theme="dark"] .example {
   border-color: #ffffff;
-  background-color: #000000;
+  background-color: #212529;
   color: #ffffff;
 }
 
@@ -36,7 +36,7 @@ body[data-bs-theme="dark"] #services svg {
 
 /* Miniaturas (ProjectDetail) */
 body[data-bs-theme="dark"] .thumbnail-container {
-  background-color: #111111;
+  background-color: #212529;
 }
 
 /* =========================================================
@@ -48,14 +48,14 @@ body[data-bs-theme="light"] .custom-footer,
 body[data-bs-theme="light"] #contact,
 body[data-bs-theme="light"] #services,
 body[data-bs-theme="light"] .example {
-  border-color: #000000;
+  border-color: #212529;
   background-color: #ffffff;
-  color: #000000;
+  color: #212529;
 }
 
 body[data-bs-theme="light"] .custom-footer a svg,
 body[data-bs-theme="light"] #services svg {
-  color: #000000;
+  color: #212529;
 }
 
 /* Miniaturas (ProjectDetail) */

@@ -26,38 +26,74 @@ const Projects = ({ setArtist }) => {
 				<button className='btn btn-outline-secondary m-2' onClick={() => handleFilter('All', 'Visual Artist')}>
 					All
 				</button>
-				<button className='btn btn-outline-secondary m-2' onClick={() => handleFilter('Film', 'Filmaker')}>
-					Film
+				<button className='btn btn-outline-secondary m-2' onClick={() => handleFilter('Patrimonio Cultural', 'Patrimonio Culturalaker')}>
+					Patrimonio Cultural
 				</button>
 				<button
 					className='btn btn-outline-secondary m-2'
-					onClick={() => handleFilter('Photography', 'Photographer')}
+					onClick={() => handleFilter('Derechos Humanos', 'Photographer')}
 				>
-					Photography
+					Derechos Humanos
 				</button>
 				<button
 					className='btn btn-outline-secondary m-2'
-					onClick={() => handleFilter('Workshop', 'Facilitator')}
+					onClick={() => handleFilter('Derecho a la Ciudad', 'Facilitator')}
 				>
-					Workshop
+					Derecho a la Ciudad
 				</button>
 				<button
 					className='btn btn-outline-secondary m-2'
-					onClick={() => handleFilter('Performance', 'Performer')}
+					onClick={() => handleFilter('Acceso a la tierra', 'Performer')}
 				>
-					Performance
+					Acceso a la tierra
 				</button>
 				<button
 					className='btn btn-outline-secondary m-2'
-					onClick={() => handleFilter('Research', 'Researcher')}
+					onClick={() => handleFilter('Migración', 'Migracióner')}
 				>
-					Research
+					Migración
 				</button>
 				<button
 					className='btn btn-outline-secondary m-2'
-					onClick={() => handleFilter('Artist Residency', 'Artist')}
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
 				>
-					Artist Residency
+					Economias locales y sostenibles
+				</button>
+				<button
+					className='btn btn-outline-secondary m-2'
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
+				>
+					Perpectivas interseccional de género
+				</button>
+				<button
+					className='btn btn-outline-secondary m-2'
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
+				>
+					Inclusión y Diversidades
+				</button>
+				<button
+					className='btn btn-outline-secondary m-2'
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
+				>
+					Conflictos ambientales
+				</button>
+				<button
+					className='btn btn-outline-secondary m-2'
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
+				>
+					Espacio público
+				</button>
+				<button
+					className='btn btn-outline-secondary m-2'
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
+				>
+					Generación de datos
+				</button>
+				<button
+					className='btn btn-outline-secondary m-2'
+					onClick={() => handleFilter('Economias locales y sostenibles', 'Artist')}
+				>
+					Planificación urbana y del territorio
 				</button>
 			</div>
 

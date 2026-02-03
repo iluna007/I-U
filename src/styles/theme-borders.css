@@ -2,7 +2,8 @@
 .navbar,
 .about-box,
 .custom-footer,
-#contact {
+#contact,
+#services {
   border-width: 1px;
   border-style: solid;
   transition:
@@ -15,13 +16,15 @@
 body[data-bs-theme="dark"] .navbar,
 body[data-bs-theme="dark"] .about-box,
 body[data-bs-theme="dark"] .custom-footer,
-body[data-bs-theme="dark"] #contact {
+body[data-bs-theme="dark"] #contact,
+body[data-bs-theme="dark"] #services {
   border-color: #ffffff;
   background-color: #000000;
   color: #ffffff;
 }
 
-body[data-bs-theme="dark"] .custom-footer a svg {
+body[data-bs-theme="dark"] .custom-footer a svg,
+body[data-bs-theme="dark"] #services svg {
   color: #ffffff;
 }
 
@@ -29,22 +32,51 @@ body[data-bs-theme="dark"] .custom-footer a svg {
 body[data-bs-theme="light"] .navbar,
 body[data-bs-theme="light"] .about-box,
 body[data-bs-theme="light"] .custom-footer,
-body[data-bs-theme="light"] #contact {
+body[data-bs-theme="light"] #contact,
+body[data-bs-theme="light"] #services {
   border-color: #000000;
   background-color: #ffffff;
   color: #000000;
 }
 
-body[data-bs-theme="light"] .custom-footer a svg {
+body[data-bs-theme="light"] .custom-footer a svg,
+body[data-bs-theme="light"] #services svg {
   color: #000000;
 }
 
 /* Hover animation for icons */
-.custom-footer a svg {
+.custom-footer a svg,
+#services svg {
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.custom-footer a:hover svg {
+.custom-footer a:hover svg,
+#services svg:hover {
   transform: scale(1.1);
   color: var(--bs-primary);
 }
+
+/* Fade and slide animation for cards */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service-card {
+  opacity: 0;
+  animation: fadeSlideUp 0.8s ease forwards;
+}
+
+.service-card:nth-child(1) { animation-delay: 0.1s; }
+.service-card:nth-child(2) { animation-delay: 0.2s; }
+.service-card:nth-child(3) { animation-delay: 0.3s; }
+.service-card:nth-child(4) { animation-delay: 0.4s; }
+.service-card:nth-child(5) { animation-delay: 0.5s; }
+.service-card:nth-child(6) { animation-delay: 0.6s; }
+

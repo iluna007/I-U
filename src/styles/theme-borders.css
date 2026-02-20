@@ -1,7 +1,17 @@
 /* =========================================================
-   Base border + transition (layout común)
+   Body background by theme
    ========================================================= */
-.navbar,
+body[data-bs-theme="dark"] {
+  background-color: #171717;
+}
+
+body[data-bs-theme="light"] {
+  background-color: #fafafa;
+}
+
+/* =========================================================
+   Base border + transition (sections con tema)
+   ========================================================= */
 .about-box,
 .custom-footer,
 #contact,
@@ -18,7 +28,6 @@
 /* =========================================================
    DARK MODE
    ========================================================= */
-body[data-bs-theme="dark"] .navbar,
 body[data-bs-theme="dark"] .about-box,
 body[data-bs-theme="dark"] .custom-footer,
 body[data-bs-theme="dark"] #contact,
@@ -34,7 +43,6 @@ body[data-bs-theme="dark"] #services svg {
   color: #ffffff;
 }
 
-/* Miniaturas (ProjectDetail) */
 body[data-bs-theme="dark"] .thumbnail-container {
   background-color: #212529;
 }
@@ -42,7 +50,6 @@ body[data-bs-theme="dark"] .thumbnail-container {
 /* =========================================================
    LIGHT MODE
    ========================================================= */
-body[data-bs-theme="light"] .navbar,
 body[data-bs-theme="light"] .about-box,
 body[data-bs-theme="light"] .custom-footer,
 body[data-bs-theme="light"] #contact,
@@ -58,13 +65,12 @@ body[data-bs-theme="light"] #services svg {
   color: #212529;
 }
 
-/* Miniaturas (ProjectDetail) */
 body[data-bs-theme="light"] .thumbnail-container {
   background-color: #f8f9fa;
 }
 
 /* =========================================================
-   Hover animation for icons
+   Hover animation for icons (footer + services)
    ========================================================= */
 .custom-footer a svg,
 #services svg {
@@ -74,11 +80,11 @@ body[data-bs-theme="light"] .thumbnail-container {
 .custom-footer a:hover svg,
 #services svg:hover {
   transform: scale(1.1);
-  color: var(--bs-primary);
+  color: #3b82f6;
 }
 
 /* =========================================================
-   Fade + slide animation for cards
+   Fade + slide animation for service cards
    ========================================================= */
 @keyframes fadeSlideUp {
   from {
@@ -102,23 +108,5 @@ body[data-bs-theme="light"] .thumbnail-container {
 .service-card:nth-child(4) { animation-delay: 0.4s; }
 .service-card:nth-child(5) { animation-delay: 0.5s; }
 .service-card:nth-child(6) { animation-delay: 0.6s; }
-
-/* =========================================================
-   Navbar logo responsive
-   ========================================================= */
-.navbar-brand img {
-  height: 80px;   /* desktop */
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .navbar-brand img {
-    height: 40px; /* mobile */
-  }
-}
-.example {
-  padding-top: 6rem;
-  margin-top: 2rem;
-  padding-bottom: 6rem;
-  margin-bottom: 2rem;
-}
+.service-card:nth-child(7) { animation-delay: 0.6s; }
+.service-card:nth-child(8) { animation-delay: 0.6s; }

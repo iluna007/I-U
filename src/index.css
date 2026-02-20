@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Smooth scroll global */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection style */
+::selection {
+  background-color: rgb(59 130 246 / 0.3);
+  color: inherit;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid rgb(59 130 246);
+  outline-offset: 2px;
+}
+

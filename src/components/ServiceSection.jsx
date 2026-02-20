@@ -79,51 +79,50 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
   ];
 
   return (
-    <section id="services" className="py-5 border-top">
-      <div className="container">
-        <h1 className="text-center fw-bold mb-5">¿Qué hacemos?</h1>
+    <section id="services" className="border-t border-neutral-700 py-12 md:py-16">
+      <div className="mx-auto max-w-6xl px-4">
+        <h1 className="mb-10 text-center text-2xl font-bold md:text-3xl">
+          ¿Qué hacemos?
+        </h1>
 
-        <div className="row g-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <div className="col-md-6 col-lg-4" key={index}>
-              <div
-                className="card h-100 shadow-sm border-0 service-card"
-                style={{
-                  backgroundColor: "var(--bs-body-bg)",
-                  transition: "background-color 0.3s ease",
-                }}
-              >
-                <div className="card-body">
-                  <div className="d-flex align-items-center mb-3">
-                    <div className="me-3 text-primary">{service.icon}</div>
-                    <h5 className="card-title fw-semibold mb-0">
-                      {service.title}
-                    </h5>
-                  </div>
-
-                  <p className="card-text text-muted">{service.short}</p>
-
-                  <button
-                    className="btn btn-link p-0 text-primary fw-semibold"
-                    onClick={() =>
-                      setActiveIndex(activeIndex === index ? null : index)
-                    }
-                  >
-                    {activeIndex === index ? "Ver menos ↑" : "Ver más ↓"}
-                  </button>
-
-                  {activeIndex === index && (
-                    <div className="mt-3">
-                      <p
-                        className="text-muted small"
-                        style={{ whiteSpace: "pre-line" }}
-                      >
-                        {service.full}
-                      </p>
-                    </div>
-                  )}
+            <div
+              key={index}
+              className="service-card group flex h-full flex-col rounded-xl border border-neutral-700 bg-neutral-900/50 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-neutral-600 hover:shadow-lg hover:shadow-black/20"
+            >
+              <div className="mb-3 flex items-center gap-3">
+                <div className="rounded-lg bg-blue-500/10 p-2 text-blue-400 transition-transform duration-300 group-hover:scale-110 group-hover:bg-blue-500/20">
+                  {service.icon}
                 </div>
+                <h2 className="text-lg font-semibold">
+                  {service.title}
+                </h2>
               </div>
+
+              <p className="mb-3 flex-1 text-sm text-neutral-400">
+                {service.short}
+              </p>
+
+              <button
+                type="button"
+                className="w-fit text-left text-sm font-semibold text-blue-400 transition-all duration-200 hover:gap-2 hover:text-blue-300"
+                onClick={() =>
+                  setActiveIndex(activeIndex === index ? null : index)
+                }
+              >
+                {activeIndex === index ? "Ver menos ↑" : "Ver más ↓"}
+              </button>
+
+              {activeIndex === index && (
+                <div className="mt-3 animate-fade-in border-t border-neutral-700 pt-3">
+                  <p
+                    className="whitespace-pre-line text-sm leading-relaxed text-neutral-400"
+                  >
+                    {service.full}
+                  </p>
+                </div>
+              )}
             </div>
           ))}
         </div>

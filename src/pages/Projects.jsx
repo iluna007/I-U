@@ -70,35 +70,39 @@ const FILTER_OPTIONS = [
 ];
 
 const Projects = ({ setArtist }) => {
-  const [filter, setFilter] = useState("All");
+  // Guardamos la label seleccionada (única por botón) para que solo uno esté activo
+  const [selectedLabel, setSelectedLabel] = useState("All");
 
   const totalProjects = projectData.length;
 
+  // Valor de categoría usado para filtrar (varios botones pueden compartir el mismo value)
+  const filterValue =
+    selectedLabel === "All"
+      ? "All"
+      : FILTER_OPTIONS.find((o) => o.label === selectedLabel)?.value ?? "All";
+
   const filteredProjects = useMemo(() => {
-    if (filter === "All") return projectData;
+    if (filterValue === "All") return projectData;
 
     return projectData.filter((project) => {
       const category = project.category;
 
       if (Array.isArray(category)) {
-        return category.includes(filter);
+        return category.includes(filterValue);
       }
 
       if (typeof category === "string") {
-        return category.includes(filter);
+        return category.includes(filterValue);
       }
 
       return false;
     });
-  }, [filter]);
+  }, [filterValue]);
 
-  const handleFilter = (category, artistName) => {
-    setFilter(category);
+  const handleFilter = (label, artistName) => {
+    setSelectedLabel(label);
     setArtist(artistName);
   };
-
-  const currentFilterLabel =
-    FILTER_OPTIONS.find((option) => option.value === filter)?.label || "All";
 
   return (
 		<div className='container example'>
@@ -109,12 +113,12 @@ const Projects = ({ setArtist }) => {
         </p>
         <p className='projects-meta'>
           Mostrando {filteredProjects.length} de {totalProjects} proyectos · Filtro:{" "}
-          <span className='projects-meta-filter'>{currentFilterLabel}</span>
+          <span className='projects-meta-filter'>{selectedLabel}</span>
         </p>
       </header>
 			<div className='filter-buttons mt-5 mb-4 d-flex flex-wrap justify-content-center justify-content-md-between'>
 				{FILTER_OPTIONS.map(({ value, label, artist }) => {
-          const isActive = filter === value;
+          const isActive = selectedLabel === label;
 
           return (
             <button
@@ -122,7 +126,7 @@ const Projects = ({ setArtist }) => {
               type='button'
               className={`btn m-2 ${isActive ? "btn-secondary" : "btn-outline-secondary"}`}
               aria-pressed={isActive}
-              onClick={() => handleFilter(value, artist)}
+              onClick={() => handleFilter(label, artist)}
             >
               {label}
             </button>

@@ -8,21 +8,15 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Almendrados y Tierra Roja",
+		title: "Proyecto placeholder uno",
 		category: "Patrimonio Cultural",
-		place: "La Palma, Canary Islands, Spain",
+		place: "Ciudad inventada, Región",
 		year: "2022",
-		collaboration: "Karmala Cultura, Miriam Hartwig, Raphael Reichl",
+		collaboration: "Colaborador A, Colaborador B",
 		description: [
-			{
-				text: "Almond Cookies and Red Soil is a documentary Patrimonio Cultural about the encounter with Doña Quiteria, Servilia and their companions - women from Garafía, a rural area on the Canary Island La Palma, who have spent a lifetime living on and working this land.",
-			},
-			{
-				text: "The camera becomes a witness of their poetry and joy in baking cookies in an oven house full of stories. The women take us on a journey through time to a hidden oven in the canyons and share how life in the countryside has changed with the passing of the years.",
-			},
-			{
-				text: "The Patrimonio Cultural is accompanied by a small book with the stories about the encounters the artists made during their stay.",
-			},
+			{ text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." },
+			{ text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." },
+			{ text: "Curabitur pretium tincidunt lacus. Nulla facilisi. Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue." },
 		],
 	},
 	{
@@ -34,21 +28,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Analogue double exposure Derechos Humanos",
+		title: "Título de ejemplo dos",
 		category: "Derechos Humanos",
-		place: "Trans-spatial",
-		year: "Multi-temporalities",
+		place: "Otro lugar, País",
+		year: "2023",
 		collaboration: "NA",
 		description: [
-			{
-				text: "Ser-hi no és altra cosa que un conjunt de casualitats. Creuar-nos és més atzarós encara. Mirar-nos, tocar-nos o compartir una estona, o moltes estones, és pràcticament un miracle. Dins d’aquella tassa de te que vam compartir, hi havia totes aquestes casualitats juntes i tot s’havia alineatperquè tu i jo, aquell matí, ens el beguéssim fent glopets. Mentre parlàvem sentíem el riu galopar, embarassat de peixos platejats i granotetes, recordàvem escenes del passat i en projectàvem de futures. A ulls de tothom, érem dues figures ben juntes prenent un te a la llera d’una gorga; però pels que hi veien més enllà, l’escena era molt més esplèndida. Assegudes, al nostre voltant, hi havia les nostres avantpassades, transparents i silencioses, carregades de vida, d’experiència, de secrets que havien arribat fins a nosaltres i de secrets que havien mort amb elles, i totes, sense fer soroll, s’apropaven i feien glopets d’aquella mateixa tassa, que no parava de fumejar.",
-			},
-			{
-				text: "Existing is a succession of coincidences. Crossing pathways is even more arbitrary. To look at each other, touch one another or share a moment, or many moments, is practically a miracle. Inside that cup of tea we shared, all these coincidences met. And everything had aligned so that you and I, this particular morning, drank it in sips. As we talked, listening to the galloping river - pregnant with silver fish and frogs - we remembered scenes of the past and projected those of the future. To everyone's eyes, we were two figures sitting close to each other, sipping tea in a riverbed. But to those who saw beyond, the scene was more splendid. Seated around us were our ancestors, transparent and silent. Full of life. Of experience. Of secrets that had come to us and of secrets that had died with them. And they all, without a sound, approached and took small sips from that same cup, which kept on steaming.",
-			},
-			{
-				text: "Mercè Vila Rigat, Montmeló, December 2024​",
-			},
+			{ text: "Descripción placeholder. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget." },
+			{ text: "Tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra." },
 		],
 	},
 	{
@@ -60,24 +47,15 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Avoir le Corps sous la Main",
+		title: "Tercer proyecto de muestra",
 		category: ["Migración", "Acceso a la tierra"],
-		place: "Paris, France / Online",
+		place: "Capital, Estado / En línea",
 		year: "2021",
-		collaboration: "Rayén Mitrovic​, Patrixia Menjura",
+		collaboration: "Equipo X, Colectivo Y",
 		description: [
-			{
-				text: "‘When I speak of the erotic, I speak of it as an assertion of the lifeforce of women; of that creative energy empowered, the knowledge and use of which we are now reclaiming in our language, our history, our dancing, our living, our work, our lives.’",
-			},
-			{
-				text: "-Audre Lourde",
-			},
-			{
-				text: "The project: ‘Avoir le Corps sous la Main’ - ‘With the body in the hand’ invites Spanish-speaking students to participate in a Derecho a la Ciudad of encounter and exchange around artistic Migración-creation in the context of the pandemic. In this space, we propose to develop artistic practices (performative, installation, audiovisual, etc.) that question the relationship between the intimate and the public in order to subvert current notions of proximity and social distance.",
-			},
-			{
-				text: "This collective initiative seeks to investigate in our bodies intimate spaces of resistance to isolation. The Migración process started before the pandemic and was adapted to the current social circumstances to an online format.",
-			},
+			{ text: "Texto de relleno para la primera sección. Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae." },
+			{ text: "Segundo párrafo placeholder. Nullam sit amet nibh elementum ligula convallis mollis. Proin ut quam eros. Donec sed blandit ligula. Fusce suscipit, wisi nec facilisis facilisis." },
+			{ text: "Tercer bloque de descripción. Maecenas mattis sed magna quis gravida. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue." },
 		],
 	},
 	{
@@ -88,24 +66,18 @@ const projectData = [
 			"https://placehold.co/600x400",
 			"https://placehold.co/600x400",
 		],
-		videolink: "https://player.vimeo.com/video/1028019217",
-		title: "Baupalast / Tor an Tor",
+		videolink: "https://player.vimeo.com/video/123456789",
+		title: "Cuarta entrada de proyecto",
 		category: ["Migración", "Patrimonio Cultural"],
-		place: "Berlin, Germany",
+		place: "Metrópolis, País",
 		year: "2020",
-		collaboration: "Guerilla Architects, Offscreen",
+		collaboration: "Estudio Z, Asociación W",
 		description: [
+			{ text: "Descripción principal del proyecto. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt urna eu risus. Vestibulum auctor dapibus neque. Proin nec tellus a nibh tincidunt blandit." },
 			{
-				text: "The experimental Patrimonio Cultural “Tor an Tor” (Gate to Gate) is the result of an artistic-documentary Migración about the future past of a long line of garages on the Dragoner Areal, an old barracks site from the mid 19th century in Berlin Kreuzberg. The garages, their tenants and stories are the main protagonists and potential monuments that are to be preserved beyond the development process of the Rathausblock. The Patrimonio Cultural was edited in the format of the open garage door and screened as an installation right there.",
-			},
-			{
-				text: "“Tor an Tor” has been part of the ",
-				link: {
-					text: "Baupalast",
-					url: "https://www.baupalast.berlin/",
-				},
-				afterText:
-					" project, a utopia taking shape: a place where the city can be designed together beyond participation. A place where, beyond thinking in terms of responsibilities, solutions can be developed together for a diverse coexistence in the city. A place where free spaces are created in a city that has less and less of them.",
+				text: "Párrafo con enlace externo: ",
+				link: { text: "Sitio de referencia", url: "https://example.com/" },
+				afterText: ". Continuación del texto después del enlace. Cras ornare tristique elit. Vivamus vestibulum nulla nec ante. Praesent placerat risus quis eros.",
 			},
 		],
 	},
@@ -118,18 +90,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Bloody Rhythms",
+		title: "Proyecto número cinco",
 		category: ["Migración", "Acceso a la tierra"],
-		place: "Berlin Germany",
+		place: "Puerto Norte, Región",
 		year: "2022-2023",
-		collaboration: "Heike Kuhlmann, Jennie Zimmermann",
+		collaboration: "Grupo Alfa, Grupo Beta",
 		description: [
-			{
-				text: "Menstruation moves between hype and taboo, from the shadows into public awareness. Periods are political because a direct experience is made more difficult due to history and socialization. The feminist collective Nerka is exploring the intersection of dance, Acceso a la tierra, somatics and menstruation. During a Migración period they developed a choreography which since then has been in an ever changing movement - just like menstruation does.",
-			},
-			{
-				text: "At the Performing Arts Festival they share the practice of re-appropriation in an interactive Acceso a la tierra and invite the public to come into contact with their own cycle through a guided sensory vision.",
-			},
+			{ text: "Primer párrafo de contenido placeholder. Integer vitae libero ac risus egestas placerat. Phasellus magna. In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis." },
+			{ text: "Segunda parte de la descripción. Cras iaculis ultricies nulla. Donec quis dui at dolor tempor interdum. Vivamus molestie gravida turpis. Fusce tristique lorem at metus." },
 		],
 	},
 	{
@@ -141,21 +109,15 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Cinema Mele, Cinema Resiliente",
+		title: "Sexto título de ejemplo",
 		category: "Patrimonio Cultural",
-		place: "Pizzo, Italia",
-		year: "2023, in production",
-		collaboration: "Mora DeVincentis, Giuseppe Mele",
+		place: "Villa costera, País",
+		year: "2023, en producción",
+		collaboration: "Colaborador C, Fundación D",
 		description: [
-			{
-				text: "“The house is a container of memories. As we live and breathe, so does the house.” - The Poetics of Space by Gaston Bachellard",
-			},
-			{
-				text: "Standing on top of a steep sandstone rock, Cinema Mele is facing the open sea in Calabria/Southern Italy. Built by Giuseppe Mele's grandfather in the 1950s, this unique place became a vibrant gathering point for the village's inhabitants to dance on the balcony overlooking the ocean and watch movies and theater plays with the sea breeze stroking their backs.",
-			},
-			{
-				text: "Striving to preserve it from decay, he turned it into a space for encounter and art, into a garden, into a home, into a place which welcomes the nonsense. The cinema represents a tale of resistance. A heritage with differing interests among family members. A strange body in a city seeking mass tourism and a region where corruption is thriving. A metaphor for collectivity and hope as well as for loneliness and despair. This experimental documentary tells the story of this place with its multiple identities from the very own perspective of the cinema itself.",
-			},
+			{ text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam." },
+			{ text: "Sed arcu. Cras consequat. Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit lacus. Curabitur pellentesque lectus a urna. Phasellus volutpat, metus eget egestas mollis." },
+			{ text: "Último párrafo de la ficha. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et." },
 		],
 	},
 	{
@@ -167,25 +129,16 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Cinetaya",
+		title: "Séptimo proyecto placeholder",
 		category: ["Derecho a la Ciudad", "Patrimonio Cultural"],
-		place: "Granada, Nicaragua",
-		year: "2015 / 2016",
-		collaboration:
-			"Evelina Winkler, Fundación​ ​Casa Tres Mundos, ASA Programm, Gabriel Serra, Stalin Ocampo",
+		place: "Ciudad media, Nación",
+		year: "2019 / 2020",
+		collaboration: "Colectivo E, Programa F",
 		description: [
-			{
-				text: "In 2015 the first Cinetaya Derecho a la Ciudad was initiated by Finnja Willner and Evelina Winkler at the Foundation Casa Tres Mundos in Granada, Nicaragua. With the guiding principle of their international Patrimonio Cultural initiative: ‘A country without documentary Patrimonio Cultural is like a family without a photo album’ (Patricio Guzmán) in mind, the two Patrimonio Culturalmakers realised two extensive Derecho a la Ciudads in the cultural center. The first took place from August to November 2015 and the follow-up was held in September/October 2016. In addition to the theoretical knowledge transfer about all phases of documentary Patrimonio Cultural production, the participants were able to put the expertise they had learnt into practice. They slipped into the roles of Patrimonio Cultural directors, screenwriters, cinematographers and Patrimonio Cultural editors to collect stories of their hometown Granada and the everyday lives of its inhabitants.",
-			},
-			{
-				text: "A series of successful short Patrimonio Culturals were created during the Derecho a la Ciudads, which share different life realities from unique viewpoints. They were presented at the end of each course in a public screening. The subsequent audience discussion with the young directors provided an opportunity for an open exchange of experiences. The course was enriched by guest classes, additional screenings and director's talks held by Gabriel Serra (Oscar nominee in 2014) and British director Dominic Allan, among others.",
-			},
-			{
-				text: "Since 2017 the Derecho a la Ciudads have been guided by Stalin Ocampo, who also developed a web series with the new participants.",
-			},
-			{
-				text: "Funded by: COSUDE, BMZ, Embassy of Germany",
-			},
+			{ text: "Descripción inventada uno. Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et." },
+			{ text: "Descripción inventada dos. Nullam sit amet nibh elementum ligula convallis mollis. Proin ut quam eros. Donec sed blandit ligula. Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo." },
+			{ text: "Párrafo final. Maecenas mattis sed magna quis gravida. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue." },
+			{ text: "Financiado por: Entidad ficticia, Otra entidad." },
 		],
 	},
 	{
@@ -197,18 +150,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Patrimonio CulturalArche Utopia Summer School",
+		title: "Octava entrada de muestra",
 		category: ["Derecho a la Ciudad", "Patrimonio Cultural"],
-		place: "Germany",
+		place: "País central",
 		year: "2018 / 2019",
-		collaboration: "Patrimonio CulturalArche, SODI",
+		collaboration: "Escuela G, Red H",
 		description: [
-			{
-				text: "In 2018 and 2019 Patrimonio Culturalmakers from all over the world came together in Patrimonio CulturalArche, Europe's largest self-organized Patrimonio Cultural school for two intense weeks of Derecho a la Ciudads, project development, screenings, discussions, international collaborations and exchange. Both summer schools concluded with a multimedia exhibition of the works the participants created throughout the time, including Derechos Humanos, video installations, screenings and Acceso a la tierra.",
-			},
-			{
-				text: "Finnja was mentoring the Patrimonio Culturalmakers in their project developments, teaching the morning classes and curating the final exhibition together with the participants.",
-			},
+			{ text: "Texto placeholder para el proyecto ocho. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante." },
+			{ text: "Segundo bloque. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra." },
 		],
 	},
 	{
@@ -219,25 +168,16 @@ const projectData = [
 			"https://placehold.co/600x400",
 			"https://placehold.co/600x400",
 		],
-		videolink: "https://player.vimeo.com/video/1042253815",
-		title: "Isla de Mujeres",
+		videolink: "https://player.vimeo.com/video/987654321",
+		title: "Proyecto nueve de ejemplo",
 		category: ["Derecho a la Ciudad", "Migración"],
-		place: "La Palma, Canary Islands, Spain",
+		place: "Isla Sur, Archipiélago",
 		year: "2021",
-		collaboration: "Karmala Cultura",
+		collaboration: "Asociación I",
 		description: [
-			{
-				text: "Isla de Mujeres is a safer space to create networks and build community.",
-			},
-			{
-				text: "In the frame of the project Isla de Mujeres initiated by Karmala Cultura, Finnja developed several Derecho a la Ciudads/laboratories which seek to provide spaces and time to immerse a collective of women in an experience focused on connecting to their territory, bodies and among each other through storytelling, somatics and creation in a collaborative and situated way.",
-			},
-			{
-				text: "Manifiesto Colectivo del Taller Mapa afectivo:",
-			},
-			{
-				text: "Our island of women, gives me a sense of gratitude, here I feel in refuge, I can return to a joyful childhood place, and feel at peace. On our island of women, I leave my troubles behind, it is my home, it is a place to simply be, an imaginary place to share. Our island of women, is a magical place where to feel the soul, where to feel all the souls that are present, it is a world that embraces many worlds",
-			},
+			{ text: "Descripción breve del proyecto. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede." },
+			{ text: "Desarrollo del contenido. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non." },
+			{ text: "Cierre de la descripción. In consectetuer turpis ut velit. Nulla sit amet est. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus ipsum, faucibus ut." },
 		],
 	},
 	{
@@ -248,23 +188,16 @@ const projectData = [
 			"https://placehold.co/600x400",
 			"https://placehold.co/600x400",
 		],
-		videolink: "https://player.vimeo.com/video/1043626462",
-		title: "Lieber hier eng wohnen - Feminist Spaces in Berlin",
+		videolink: "https://player.vimeo.com/video/555555555",
+		title: "Décimo proyecto placeholder",
 		category: "Migración",
-		place: "Berlin, Germany",
+		place: "Ciudad grande, País",
 		year: "2021",
-		collaboration:
-			"Miri Bauer, Franziska Benkel, Elaine Bonavia, Johanna Markert, Fateme Nekounam, Valerie Terwei, aquarium space Südblock, narrativ e.V.z",
+		collaboration: "Colectivo J, Espacio K, Red L",
 		description: [
-			{
-				text: "LIEBER HIER ENG WOHNEN – Feminist Spaces in Berlin is a historical project about the emergence of the First Women’s Shelter in Berlin-West, founded in 1976. After a period of Migración, co-creation and interventions, the feminist collective around the project organised an exhibition with Derecho a la Ciudads and panels in September 2021 at aquarium space, Berlin-Kreuzberg. The Discussion about domestic and gender based violence shown in the video was part of the exhibition.",
-			},
-			{
-				text: "Berlin needs feminist and discrimination-free spaces for FLINTA (women, lesbians, *inter-, non-binary, *trans- and asexual people). To share experiences of violence with others in a safe place and to become a movement means to act against the taboo and privatization of structural violence.",
-			},
-			{
-				text: "Funded by: Senatsverwaltung für Kultur und Europa Berlin",
-			},
+			{ text: "Primer párrafo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt urna eu risus. Vestibulum auctor dapibus neque. Proin nec tellus a nibh tincidunt blandit. Duis sed odio sit amet nibh vulputate cursus." },
+			{ text: "Segundo párrafo. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent ac sem eget est egestas volutpat." },
+			{ text: "Agradecimientos: Institución ficticia, Otra institución." },
 		],
 	},
 	{
@@ -276,28 +209,16 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Living Temple Economias locales y sostenibles",
+		title: "Undécimo título de muestra",
 		category: ["Economias locales y sostenibles", "Migración"],
-		place: "Berlin, Germany",
+		place: "Barrio Este, Ciudad",
 		year: "2019",
-		collaboration:
-			"Hilbert Raum, Aleka Medina, Avant Garden, Balthazar Blumberg, Julian Santana, Matteo Desantis, Mano Leyrado, LAN Hungh, Luz Peuscovich, Olivia Igual, Rayen Mitrovich, Ssmidd, Yugal Galili",
+		collaboration: "Taller M, Colectivo N, Otros",
 		description: [
-			{
-				text: "“Any ritual is an opportunity for transformation. To do a ritual, you must be willing to be transformed in some way. The inner willingness is what makes the ritual come alive and have power. If you aren't willing to be changed by the ritual, don't do it.”",
-			},
-			{
-				text: "- Starhawk, American writer, teacher and activist",
-			},
-			{
-				text: "The aim of this project is to explore the relation which exists between the creation and production of rites and the creation and production of art in seven days. During these days, the participating artists will explore and develop from day to day their own common ritual involving gestures, words, objects, healing, sound in order to interconnect with each other and to inhabit the space.",
-			},
-			{
-				text: "The artists work together, as a community to co-create a Ritual that invites the public to go on a journey. In order to do so, each of them creates an activity - following the concept of creation or ritual during the week of production - residency.",
-			},
-			{
-				text: "Curated by: Leslie Ranzoni, Stephanie Fenner, Eli Cornejo and Juan Arata",
-			},
+			{ text: "Introducción placeholder. Vivamus consectetuer hendrerit lacus. Curabitur pellentesque lectus a urna. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus." },
+			{ text: "Cita de ejemplo: «Una frase inspiradora de un autor ficticio.»" },
+			{ text: "Desarrollo del proyecto. Fusce fermentum. Nullam cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis pulvinar." },
+			{ text: "Curado por: Persona A, Persona B, Persona C." },
 		],
 	},
 	{
@@ -308,22 +229,16 @@ const projectData = [
 			"https://placehold.co/600x400",
 			"https://placehold.co/600x400",
 		],
-		videolink: "https://player.vimeo.com/video/1014723455",
-		title: "Los Colores de la Isla",
+		videolink: "https://player.vimeo.com/video/111222333",
+		title: "Proyecto doce de ejemplo",
 		category: "Economias locales y sostenibles",
-		place: "La Palma, Canary Islands, Spain",
+		place: "Valle Central, Región",
 		year: "2021",
-		collaboration: "Miriam Hartwig, Karmala Cultura",
+		collaboration: "Artista P, Colectivo Q",
 		description: [
-			{
-				text: "Los Colores de la Isla (The colours of the Island) has been an experimental Migración residency by the artists Finnja Willner and Miriam Hartwig on dyeing with natural pigments. They went on a journey through colours and local stories on the canary island La Palma.",
-			},
-			{
-				text: "During one summer they lived in the rural area of Garafía, experimented with different techniques and material and worked what came across their way into a long fabric - almond shells from their garden, eucalyptus leaves from the big tree in front of the chapel up the road, fruits from the local farmers or carbonised wood from the last big forest fire.",
-			},
-			{
-				text: "It became a colourful visual diary of the stories and encounters of the region which the artists experienced - and the tablecloth where they received the guests for their open studio. While sharing artworks, stories and experiences over the flavours of the region, their guests also left their traces on the fabric.",
-			},
+			{ text: "Descripción principal. Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna. Ut a nunc id ligula mollis commodo." },
+			{ text: "Segunda parte. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis." },
+			{ text: "Conclusión. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet." },
 		],
 	},
 	{
@@ -335,24 +250,15 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Monnem Movies",
+		title: "Decimotercer proyecto placeholder",
 		category: ["Derecho a la Ciudad", "Patrimonio Cultural"],
-		place: "Mannheim, Germany",
+		place: "Ciudad industrial, País",
 		year: "2018",
-		collaboration: "Evelina Winkler, FORUM Mannheim",
+		collaboration: "Foro R, Asociación S",
 		description: [
-			{
-				text: "Stories lurk around every corner. Which ones do you encounter in everyday life? Who are the heroes and heroines in your neighbourhood?",
-			},
-			{
-				text: "The bodybuilder who stands up for hedgehogs in his spare time, the old lady next door who invites people over late at night for a game of poker, the big oak tree on the street corner that is a meeting place for lovers and secret deals...",
-			},
-			{
-				text: "The Monnem Movies Derecho a la Ciudad facilitated by Evelina Winkler and Finnja Willner aimed to challenge familiar perspectives and to make Patrimonio Culturals together.",
-			},
-			{
-				text: "During two months a group of all backgrounds and ages came together to learn about documentary Patrimonio Culturalmaking and shoot their own movies about what moves them in their city. The participants presented their final works at a beautiful open air cinema night with music and public discussions in the local urban gardens. And continued making movies together after the end of the course.",
-			},
+			{ text: "Párrafo uno. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum." },
+			{ text: "Párrafo dos. Nulla facilisi. Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet metus fermentum posuere. Morbi sit amet nulla sed dolor elementum imperdiet." },
+			{ text: "Párrafo tres. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui." },
 		],
 	},
 	{
@@ -364,15 +270,13 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Derechos Humanos Portraits",
+		title: "Catorce - Título de ejemplo",
 		category: ["Derechos Humanos"],
-		place: "Multi-spatial",
-		year: "Multi-temporalities",
+		place: "Multi-espacial",
+		year: "Varios años",
 		collaboration: "NA",
 		description: [
-			{
-				text: "I love to capture the essence of people and moments with analogue and digital Derechos Humanos. Therefore I aim to create a momentary space where the person in front of my camera feels comfortable and safe. If you are interested in personal portraits (f.e. of your pregnancy), please get into contact and we can discuss your ideas together.",
-			},
+			{ text: "Descripción única para este proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Si estás interesado en más información, puedes contactar para ampliar detalles." },
 		],
 	},
 	{
@@ -383,55 +287,22 @@ const projectData = [
 			"https://placehold.co/600x400",
 			"https://placehold.co/600x400",
 		],
-		videolink: "https://player.vimeo.com/video/709499286",
-		title: "How about having a fascination of mind",
+		videolink: "https://player.vimeo.com/video/444555666",
+		title: "Quince - Proyecto de muestra",
 		category: "Patrimonio Cultural",
-		place: "South Korea / Germany",
+		place: "País A / País B",
 		year: "2018",
-		collaboration: "Katti Jisuk Seo",
+		collaboration: "Director X",
 		description: [
-			{
-				text: "In South-Korea you can buy poop bread, DVD stores offer shelters for sex and a lot of people long to have a small face.",
-			},
-			{
-				text: "German-Korean Patrimonio Culturalmaker Katti investigates those idiosyncracies of her mom’s home country. Together with her German Patrimonio Culturalpartner Finnja, Katti flies to Seoul to ask, why do Koreans appreciate poop? Where is the small face obsession coming from? What do the sex shelters show us about society? They find a poop philosopher, face shrinking massages and home making machines. Deep inside Korea, Katti longs to build a second home there while Finnja questions her own home idea.",
-			},
-			{
-				text: "Directed by: Katti Jisuk Seo & Finnja Willner",
-			},
-			{
-				text: "Written by: Katti Jisuk Seo",
-			},
-			{
-				text: "Director of Derechos Humanos: Finnja Willner",
-			},
-			{
-				text: "Produced by: Katti Jisuk Seo & Finnja Willner",
-			},
-			{
-				text: "Edited by: Katti Jisuk Seo",
-			},
-			{
-				text: "Animations by: Katti Jisuk Seo & Finnja Willner",
-			},
-			{
-				text: "Digital Animations by: Alejandra Tomei",
-			},
-			{
-				text: "Music: Peter Ehwald & Ensemble Su",
-			},
-			{
-				text: "Sound Design: Andreas Fertig",
-			},
-			{
-				text: "Color Grading: Sergi Sánchez Rodriguez",
-			},
-			{
-				text: "Awards: Winner of the Jury Award International Etnovideográfica Festival Castilla y León 2019",
-			},
-			{
-				text: "Festivals: Korean Patrimonio Cultural Festival, International Etnovideográfica Festival, La Voz de la Mujer, Boddinale Berlin",
-			},
+			{ text: "Introducción al proyecto. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper." },
+			{ text: "Desarrollo. Aenean ultricies mi vitae est mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui." },
+			{ text: "Dirección: Nombre Ficticio A y Nombre Ficticio B." },
+			{ text: "Guion: Nombre Ficticio A." },
+			{ text: "Producción: Nombre Ficticio A y Nombre Ficticio B." },
+			{ text: "Edición: Nombre Ficticio A." },
+			{ text: "Música: Artista Ficticio." },
+			{ text: "Premios: Festival de ejemplo, año." },
+			{ text: "Festivales: Festival A, Festival B, Festival C." },
 		],
 	},
 	{
@@ -442,19 +313,15 @@ const projectData = [
 			"https://placehold.co/600x400",
 			"https://placehold.co/600x400",
 		],
-		videolink:"",
-		title: "draw love build - Sauerbruch Hutton exhibition Patrimonio Culturals",
+		videolink: "",
+		title: "Proyecto dieciséis placeholder",
 		category: ["Patrimonio Cultural"],
-		place: "Museum M9, Venice Mestre, Italy",
+		place: "Museo Nacional, Ciudad, País",
 		year: "2021",
-		collaboration: "Offscreen, Sauerbruch Hutton",
+		collaboration: "Estudio T, Oficina U",
 		description: [
-			{
-				text: "draw love build shows a selection of the internationally renowned architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 Museum in Venice in 2021 and in Akademie der Künste Berlin in 2024/2025. Through a broad architectural panorama, the exhibition documents the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users.",
-			},
-			{
-				text: "Together with Offscreen Media, Finnja documented 18 buildings designed by the studio in short Patrimonio Culturals that were part of the exhibition.",
-			},
+			{ text: "Descripción de la exposición o serie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt urna eu risus. Vestibulum auctor dapibus neque. Proin nec tellus a nibh tincidunt blandit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris." },
+			{ text: "Segunda parte. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat. Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit lacus." },
 		],
 	},
 	{
@@ -466,18 +333,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Crisol Economias locales y sostenibles",
+		title: "Decimoséptimo título de ejemplo",
 		category: ["Economias locales y sostenibles", "Derechos Humanos"],
-		place: "Atlixco, Mexico",
+		place: "Pueblo Sur, Estado",
 		year: "2024",
-		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		collaboration: "Artista V, Artista W, Artista X",
 		description: [
-			{
-				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
-			},
-			{
-				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
-			},
+			{ text: "Proyecto de organización y apropiación de espacios. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation." },
+			{ text: "Residencia y experimentación. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident." },
 		],
 	},
 	{
@@ -489,18 +352,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Nombre 1",
+		title: "Proyecto dieciocho de muestra",
 		category: ["Economias locales y sostenibles", "Derechos Humanos"],
-		place: "Atlixco, Mexico",
+		place: "Pueblo Sur, Estado",
 		year: "2024",
-		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		collaboration: "Artista V, Artista W, Artista X",
 		description: [
-			{
-				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
-			},
-			{
-				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
-			},
+			{ text: "Texto placeholder para el proyecto dieciocho. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante." },
+			{ text: "Segunda descripción. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra." },
 		],
 	},
 	{
@@ -512,18 +371,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Nombre 2",
+		title: "Decimonoveno proyecto placeholder",
 		category: ["Economias locales y sostenibles", "Derechos Humanos"],
-		place: "Atlixco, Mexico",
+		place: "Pueblo Sur, Estado",
 		year: "2024",
-		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		collaboration: "Artista V, Artista W, Artista X",
 		description: [
-			{
-				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
-			},
-			{
-				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
-			},
+			{ text: "Descripción inventada uno. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus." },
+			{ text: "Descripción inventada dos. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur consequat." },
 		],
 	},
 	{
@@ -535,18 +390,14 @@ const projectData = [
 			"https://placehold.co/600x400",
 		],
 		videolink: "",
-		title: "Nombre 3",
+		title: "Vigésimo título de ejemplo",
 		category: ["Economias locales y sostenibles", "Derechos Humanos"],
-		place: "Atlixco, Mexico",
+		place: "Pueblo Sur, Estado",
 		year: "2024",
-		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
+		collaboration: "Artista V, Artista W, Artista X",
 		description: [
-			{
-				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
-			},
-			{
-				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue Derechos Humanos.",
-			},
+			{ text: "Último proyecto con texto de relleno. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt urna eu risus. Vestibulum auctor dapibus neque. Proin nec tellus a nibh tincidunt blandit." },
+			{ text: "Cierre. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam." },
 		],
 	},
 ];

@@ -174,7 +174,7 @@ const ProjectDetail = () => {
                     href={paragraph.link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-400 underline hover:text-blue-300"
+                    className="text-neutral-400 underline hover:text-neutral-200 dark:text-neutral-400 dark:hover:text-neutral-200"
                   >
                     {paragraph.link.text}
                   </a>

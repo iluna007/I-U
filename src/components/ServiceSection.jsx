@@ -79,7 +79,7 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
   ];
 
   return (
-    <section id="services" className="border-t border-neutral-700 py-12 md:py-16">
+    <section id="services" className="border-t border-neutral-200 py-12 md:py-16 dark:border-neutral-700">
       <div className="mx-auto max-w-6xl px-4">
         <h1 className="mb-10 text-center text-2xl font-bold md:text-3xl">
           ¿Qué hacemos?
@@ -89,10 +89,10 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
           {services.map((service, index) => (
             <div
               key={index}
-              className="service-card group flex h-full flex-col rounded-xl border border-neutral-700 bg-neutral-900/50 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-neutral-600 hover:shadow-lg hover:shadow-black/20"
+              className="service-card group flex h-full flex-col rounded-xl border border-neutral-200 bg-neutral-100/80 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-neutral-300 hover:shadow-lg dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:border-neutral-600 dark:hover:shadow-black/20"
             >
               <div className="mb-3 flex items-center gap-3">
-                <div className="rounded-lg bg-blue-500/10 p-2 text-blue-400 transition-transform duration-300 group-hover:scale-110 group-hover:bg-blue-500/20">
+                <div className="rounded-lg bg-neutral-200 p-2 text-neutral-600 transition-transform duration-300 group-hover:scale-110 group-hover:bg-neutral-300 dark:bg-neutral-600/20 dark:text-neutral-300 dark:group-hover:bg-neutral-500/30">
                   {service.icon}
                 </div>
                 <h2 className="text-lg font-semibold">
@@ -100,13 +100,13 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
                 </h2>
               </div>
 
-              <p className="mb-3 flex-1 text-sm text-neutral-400">
+              <p className="mb-3 flex-1 text-sm text-neutral-600 dark:text-neutral-400">
                 {service.short}
               </p>
 
               <button
                 type="button"
-                className="w-fit text-left text-sm font-semibold text-blue-400 transition-all duration-200 hover:gap-2 hover:text-blue-300"
+                className="w-fit text-left text-sm font-semibold text-neutral-600 transition-all duration-200 hover:gap-2 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
                 onClick={() =>
                   setActiveIndex(activeIndex === index ? null : index)
                 }
@@ -115,9 +115,9 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
               </button>
 
               {activeIndex === index && (
-                <div className="mt-3 animate-fade-in border-t border-neutral-700 pt-3">
+                <div className="mt-3 animate-fade-in border-t border-neutral-200 pt-3 dark:border-neutral-700">
                   <p
-                    className="whitespace-pre-line text-sm leading-relaxed text-neutral-400"
+                    className="whitespace-pre-line text-sm leading-relaxed text-neutral-600 dark:text-neutral-400"
                   >
                     {service.full}
                   </p>

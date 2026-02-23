@@ -80,7 +80,16 @@ body[data-bs-theme="light"] .thumbnail-container {
 .custom-footer a:hover svg,
 #services svg:hover {
   transform: scale(1.1);
-  color: #3b82f6;
+}
+
+body[data-bs-theme="dark"] .custom-footer a:hover svg,
+body[data-bs-theme="dark"] #services svg:hover {
+  color: #e5e5e5;
+}
+
+body[data-bs-theme="light"] .custom-footer a:hover svg,
+body[data-bs-theme="light"] #services svg:hover {
+  color: #404040;
 }
 
 /* =========================================================

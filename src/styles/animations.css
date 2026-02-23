@@ -53,21 +53,6 @@
   pointer-events: none;
 }
 
-/* Gradient text (optional use) */
-@keyframes gradient-shift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-
-.animate-gradient-text {
-  background: linear-gradient(90deg, #93c5fd, #60a5fa, #3b82f6, #60a5fa);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradient-shift 4s ease infinite;
-}
-
 /* Link underline slide-in */
 .link-underline {
   position: relative;

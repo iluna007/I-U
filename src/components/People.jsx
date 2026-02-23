@@ -85,7 +85,7 @@ function People() {
                       href={p.orcid}
                       target="_blank"
                       rel="noreferrer"
-                      className="link-underline text-sm text-blue-400"
+                      className="link-underline text-sm text-neutral-600 dark:text-neutral-400"
                     >
                       ORCID
                     </a>

@@ -20,7 +20,7 @@ function App() {
   }, [theme]);
 
   const toggleTheme = () =>
-    setTheme((t) => (t === "dark" ? "Claro" : "Oscuro"));
+    setTheme((t) => (t === "dark" ? "light" : "dark"));
 
   return (
     <BrowserRouter>

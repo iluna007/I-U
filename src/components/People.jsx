@@ -12,7 +12,7 @@ function People() {
     {
       nombre: "Miguel Navarrate",
       formacion: "Arquitectura y Estudios Urbanos",
-      grado: "Maestría",
+      grado: "Doctorado",
       bio: "Arquitecto e investigador enfocado en análisis urbano-crítico, cartografías sociales y estudios sobre infraestructura y poder. Su trabajo articula métodos espaciales, análisis documental y visualización de datos para examinar conflictos territoriales y procesos de transformación urbana en América Latina.",
       foto: "https://placehold.co/400x400?text=Miguel+Navarrate",
       orcid: "",
@@ -43,7 +43,7 @@ function People() {
     {
       nombre: "Wendy Elizabeth Chávez Páez",
       formacion: "Economía y Gestión Pública",
-      grado: "Maestría",
+      grado: "Doctorado",
       bio: "Economista con maestrías en administración pública y asentamientos humanos. Investigadora junior y estudiante de doctorado en Cambio Cultural y Político en el Centro de Investigación para el Desarrollo de la Universidad de Bonn. Ha trabajado en la academia ecuatoriana, el sector público y organizaciones de la sociedad civil. Es miembro fundadora y vicepresidenta del Observatorio de Políticas Públicas de Guayaquil y de la Fundación Cerro Verde, organización que trabaja con comunidades ancestrales del Golfo de Guayaquil en la conservación del manglar. Actualmente es Co-PI y Project Manager del proyecto ENDOW-Ecuador, financiado por la National Science Foundation (NSF-IBSS-L#1743019).",
       foto: "https://placehold.co/400x400?text=Wendy+Chávez",
       orcid: "https://orcid.org/0009-0001-3624-8361",

@@ -1,19 +1,32 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 
 const navLinkClass =
   "text-sm font-medium text-neutral-100 transition-colors duration-200 hover:text-blue-400 focus:text-blue-400 link-underline";
 
 function Navbar({ theme, toggleTheme }) {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
-  const scrollToSection = (id) => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
-    setIsOpen(false);
-  };
+  // 👇 Scroll automático cuando cambia el hash
+  useEffect(() => {
+    if (!location.hash) return;
+
+    const id = location.hash.replace("#", "");
+
+    const scroll = () => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    };
+
+    // Espera a que la página monte
+    setTimeout(scroll, 100);
+  }, [location]);
 
   return (
     <nav className="sticky top-0 z-50 border-b border-neutral-800 bg-neutral-900/90 shadow-lg shadow-black/10 backdrop-blur-md transition-shadow duration-300">
@@ -68,33 +81,37 @@ function Navbar({ theme, toggleTheme }) {
                 Inicio
               </NavLink>
             </li>
+
             <li>
-              <button
-                type="button"
+              <NavLink
+                to="/#about"
                 className={navLinkClass}
-                onClick={() => scrollToSection("about")}
+                onClick={() => setIsOpen(false)}
               >
                 ¿Quiénes Somos?
-              </button>
+              </NavLink>
             </li>
+
             <li>
-              <button
-                type="button"
+              <NavLink
+                to="/#objectives"
                 className={navLinkClass}
-                onClick={() => scrollToSection("objectives")}
+                onClick={() => setIsOpen(false)}
               >
                 Objetivos
-              </button>
+              </NavLink>
             </li>
+
             <li>
-              <button
-                type="button"
+              <NavLink
+                to="/#services"
                 className={navLinkClass}
-                onClick={() => scrollToSection("objectives")}
+                onClick={() => setIsOpen(false)}
               >
                 ¿Qué hacemos?
-              </button>
+              </NavLink>
             </li>
+
             <li>
               <NavLink
                 to="/projects"
@@ -104,6 +121,7 @@ function Navbar({ theme, toggleTheme }) {
                 Proyectos
               </NavLink>
             </li>
+
             <li className="md:ml-4">
               <button
                 type="button"

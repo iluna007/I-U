@@ -3,8 +3,8 @@ import { NavLink, useLocation } from "react-router-dom";
 
 function navLinkClass(theme) {
   return theme === "dark"
-    ? "text-sm font-medium text-neutral-100 transition-colors duration-200 hover:text-neutral-300 focus:text-neutral-300 link-underline"
-    : "text-sm font-medium text-neutral-800 transition-colors duration-200 hover:text-neutral-600 focus:text-neutral-600 link-underline";
+    ? "rounded px-2 py-1 text-sm font-medium text-neutral-100 transition-colors duration-200 hover:bg-neutral-800/30 hover:text-neutral-300 focus:text-neutral-300 link-underline"
+    : "rounded px-2 py-1 text-sm font-medium text-neutral-800 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-600 focus:text-neutral-600 link-underline";
 }
 
 function Navbar({ theme, toggleTheme }) {
@@ -41,7 +41,7 @@ function Navbar({ theme, toggleTheme }) {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-1 py-1 md:py-1">
         <NavLink
           to="/"
-          className="flex items-center gap-2 transition-transform duration-200 hover:scale-105 focus:scale-105"
+          className="flex items-center gap-2 rounded transition-colors duration-200 hover:bg-neutral-100 focus:bg-neutral-100 dark:hover:bg-neutral-800/30 dark:focus:bg-neutral-800/30"
         >
           <img
             src={
@@ -58,7 +58,7 @@ function Navbar({ theme, toggleTheme }) {
           type="button"
           className={`inline-flex items-center justify-center rounded-lg p-0 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-neutral-250 focus:ring-offset-0 md:hidden ${
             theme === "dark"
-              ? "text-neutral-200 hover:bg-neutral-800 hover:text-white focus:ring-offset-neutral-900"
+              ? "text-neutral-200 hover:bg-neutral-800/30 hover:text-white focus:ring-offset-neutral-900"
               : "text-neutral-700 hover:bg-neutral-100 focus:ring-offset-white"
           }`}
           aria-expanded={isOpen}
@@ -142,10 +142,10 @@ function Navbar({ theme, toggleTheme }) {
               <button
                 type="button"
                 aria-label={theme === "dark" ? "Cambiar a modo claro" : "Cambiar a modo oscuro"}
-                className={`rounded-full border p-2 transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2 active:scale-95 ${
+                className={`rounded-full border p-2 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2 ${
                   theme === "dark"
-                    ? "border-neutral-500 text-neutral-100 hover:border-neutral-400 hover:bg-neutral-700 hover:text-neutral-200 focus:ring-offset-neutral-900"
-                    : "border-neutral-400 text-neutral-800 hover:border-neutral-600 hover:bg-neutral-100 focus:ring-offset-white"
+                    ? "border-neutral-500 text-neutral-100 hover:bg-neutral-800/30 hover:text-neutral-200 focus:ring-offset-neutral-900"
+                    : "border-neutral-400 text-neutral-800 hover:bg-neutral-100 focus:ring-offset-white"
                 }`}
                 onClick={toggleTheme}
               >

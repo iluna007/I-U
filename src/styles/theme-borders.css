@@ -6,7 +6,7 @@ body[data-bs-theme="dark"] {
 }
 
 body[data-bs-theme="light"] {
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 /* =========================================================
@@ -60,9 +60,9 @@ body[data-bs-theme="light"] .custom-footer,
 body[data-bs-theme="light"] #contact,
 body[data-bs-theme="light"] #services,
 body[data-bs-theme="light"] .example {
-  border-color: #212529;
+  border-color: #000000;
   background-color: #ffffff;
-  color: #212529;
+  color: #000000;
 }
 
 body[data-bs-theme="light"] .navbar-perimeter {
@@ -71,11 +71,11 @@ body[data-bs-theme="light"] .navbar-perimeter {
 
 body[data-bs-theme="light"] .custom-footer a svg,
 body[data-bs-theme="light"] #services svg {
-  color: #212529;
+  color: #000000;
 }
 
 body[data-bs-theme="light"] .thumbnail-container {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 /* =========================================================
@@ -93,12 +93,12 @@ body[data-bs-theme="light"] .thumbnail-container {
 
 body[data-bs-theme="dark"] .custom-footer a:hover svg,
 body[data-bs-theme="dark"] #services svg:hover {
-  color: #e5e5e5;
+  color: #ffffff;
 }
 
 body[data-bs-theme="light"] .custom-footer a:hover svg,
 body[data-bs-theme="light"] #services svg:hover {
-  color: #404040;
+  color: #000000;
 }
 
 /* =========================================================

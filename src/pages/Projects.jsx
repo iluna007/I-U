@@ -82,12 +82,12 @@ function ProjectDetailColumn({ project }) {
           )}
         </div>
         <div className="relative flex items-center gap-2">
-          <button type="button" className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-500 hover:bg-neutral-200 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-white" onClick={() => scrollThumbnails(-200)} aria-label="Anterior">
+          <button type="button" className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-500 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800/30 dark:hover:text-white" onClick={() => scrollThumbnails(-200)} aria-label="Anterior">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path fillRule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5" /></svg>
           </button>
           <div ref={detailScrollRef} className="flex flex-1 gap-2 overflow-x-auto scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {galleryItems.map((item, index) => (
-              <button key={index} type="button" onClick={() => setSelectedMedia(item.src)} className="thumbnail-container flex h-[80px] w-[80px] shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-neutral-800 transition-opacity hover:opacity-90 dark:bg-neutral-800">
+              <button key={index} type="button" onClick={() => setSelectedMedia(item.src)} className="thumbnail-container flex h-[80px] w-[80px] shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-neutral-200 transition-colors duration-200 hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-800/30">
                 {item.type === "video" ? (
                   <img src={item.thumbnail} alt="Video Thumbnail" className="h-full w-full object-cover" onError={(e) => { e.target.onerror = null; e.target.src = "/path/to/default-thumbnail.jpg"; }} />
                 ) : (
@@ -96,7 +96,7 @@ function ProjectDetailColumn({ project }) {
               </button>
             ))}
           </div>
-          <button type="button" className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-500 hover:bg-neutral-200 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-white" onClick={() => scrollThumbnails(200)} aria-label="Siguiente">
+          <button type="button" className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-500 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800/30 dark:hover:text-white" onClick={() => scrollThumbnails(200)} aria-label="Siguiente">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path fillRule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5" /></svg>
           </button>
         </div>
@@ -242,10 +242,10 @@ const Projects = ({ setArtist }) => {
                 <button
                   key={`${value}-${label}`}
                   type="button"
-                  className={`rounded-lg px-3 py-2 text-left text-sm font-medium transition-colors ${
+                  className={`rounded-lg px-3 py-2 text-left text-sm font-medium transition-colors duration-200 ${
                     isActive
                       ? "bg-neutral-900 text-white dark:bg-neutral-200 dark:text-black"
-                      : "text-neutral-600 hover:bg-neutral-200 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
+                      : "text-neutral-600 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800/30 dark:hover:text-neutral-100"
                   }`}
                   aria-pressed={isActive}
                   onClick={() => handleFilter(label, artist)}
@@ -291,10 +291,10 @@ const Projects = ({ setArtist }) => {
                     <button
                       type="button"
                       onClick={() => setSelectedProject(project)}
-                      className={`group w-full rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+                      className={`group w-full rounded-lg px-3 py-2 text-left text-sm transition-colors duration-200 ${
                         isActive
                           ? "bg-neutral-900 text-white dark:bg-neutral-200 dark:text-black"
-                          : "text-neutral-600 hover:bg-neutral-200 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:hover:text-neutral-100"
+                          : "text-neutral-600 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800/30 dark:hover:text-neutral-100"
                       }`}
                     >
                       <p className="mb-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-neutral-500 group-hover:text-neutral-600 dark:text-neutral-500 dark:group-hover:text-neutral-300">

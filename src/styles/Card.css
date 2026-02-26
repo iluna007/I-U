@@ -49,10 +49,10 @@
 }
 
 .overlay-category {
-  color: #f8f9fa;
+  color: #ffffff;
   font-size: 0.8rem;
   font-weight: 500;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 /* Apply black-and-white filter by default */

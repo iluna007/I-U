@@ -22,7 +22,7 @@ function HeroSection() {
         <div className="animate-fade-in delay-2">
           <button
             type="button"
-            className="rounded-full border border-neutral-400 bg-neutral-200 px-8 py-3 text-sm font-medium text-neutral-900 shadow-lg transition-all duration-300 hover:scale-105 hover:border-neutral-500 hover:bg-neutral-300 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2 active:scale-100 dark:border-neutral-400 dark:bg-neutral-800/50 dark:text-neutral-100 dark:hover:border-neutral-300 dark:hover:bg-neutral-700/80 dark:focus:ring-offset-neutral-900"
+            className="rounded-full border border-neutral-400 bg-neutral-200 px-8 py-3 text-sm font-medium text-neutral-900 shadow-lg transition-colors duration-200 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2 dark:border-neutral-400 dark:bg-neutral-800/50 dark:text-neutral-100 dark:hover:bg-neutral-800/30 dark:focus:ring-offset-neutral-900"
           >
             Explorar
           </button>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -28,17 +29,21 @@ function App() {
     setTheme((t) => (t === "dark" ? "light" : "dark"));
 
   return (
-    <BrowserRouter>
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
+    <ThemeProvider theme={theme}>
+      <div data-bs-theme={theme} className="min-h-screen flex flex-col">
+        <BrowserRouter>
+          <Navbar theme={theme} toggleTheme={toggleTheme} />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path='/projects/:id' element={<ProjectDetail />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<ProjectDetail />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </ThemeProvider>
   );
 }
 

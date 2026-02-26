@@ -60,22 +60,22 @@ function ContactSection() {
             <h3 className="mb-4 text-lg font-semibold">Información de Contacto</h3>
 
             <div className="group mb-4 flex items-start gap-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-neutral-600 transition-colors duration-200 group-hover:bg-neutral-100 dark:bg-neutral-600/30 dark:text-neutral-300 dark:group-hover:bg-neutral-800/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-neutral-600 transition-transform duration-200 group-hover:scale-110 group-hover:bg-neutral-300 dark:bg-neutral-600/30 dark:text-neutral-300 dark:group-hover:bg-neutral-500/40">
                 <Mail size={20} />
               </div>
               <div>
                 <h4 className="mb-1 text-sm font-medium">Email</h4>
                 <a
-                  href="mailto:arquitectoikerluna@gmail.com"
+                  href="mailto:investigacionurgente@gmail.com"
                   className="text-neutral-600 hover:text-neutral-900 hover:underline dark:text-neutral-400 dark:hover:text-neutral-200"
                 >
-                  arquitectoikerluna@gmail.com
+                  investigacionurgente@gmail.com
                 </a>
               </div>
             </div>
 
             <div className="group mb-4 flex items-start gap-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-neutral-600 transition-colors duration-200 group-hover:bg-neutral-100 dark:bg-neutral-600/30 dark:text-neutral-300 dark:group-hover:bg-neutral-800/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-neutral-600 transition-transform duration-200 group-hover:scale-110 group-hover:bg-neutral-300 dark:bg-neutral-600/30 dark:text-neutral-300 dark:group-hover:bg-neutral-500/40">
                 <Phone size={20} />
               </div>
               <div>
@@ -90,7 +90,7 @@ function ContactSection() {
             </div>
 
             <div className="group mb-4 flex items-start gap-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-neutral-600 transition-colors duration-200 group-hover:bg-neutral-100 dark:bg-neutral-600/30 dark:text-neutral-300 dark:group-hover:bg-neutral-800/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-neutral-600 transition-transform duration-200 group-hover:scale-110 group-hover:bg-neutral-300 dark:bg-neutral-600/30 dark:text-neutral-300 dark:group-hover:bg-neutral-500/40">
                 <MapPin size={20} />
               </div>
               <div>
@@ -99,13 +99,13 @@ function ContactSection() {
               </div>
             </div>
 
-            <h4 className="mb-3 mt-8 font-semibold">Conecta conmigo</h4>
+            <h4 className="mb-3 mt-8 font-semibold">Conecta </h4>
             <div className="flex gap-3">
               <a
                 href="https://www.linkedin.com/in/iker-l-05484b80/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex rounded-lg p-2 text-neutral-500 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800/30 dark:hover:text-neutral-200"
+                className="inline-flex rounded-lg p-2 text-neutral-500 transition-all duration-200 hover:scale-110 hover:bg-neutral-200 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-600/30 dark:hover:text-neutral-200"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
@@ -114,7 +114,7 @@ function ContactSection() {
                 href="https://github.com/iluna007"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex rounded-lg p-2 text-neutral-500 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800/30 dark:hover:text-neutral-200"
+                className="inline-flex rounded-lg p-2 text-neutral-500 transition-all duration-200 hover:scale-110 hover:bg-neutral-200 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-600/30 dark:hover:text-neutral-200"
                 aria-label="GitHub"
               >
                 <Github size={24} />
@@ -123,7 +123,7 @@ function ContactSection() {
           </div>
 
           <div className="lg:col-span-3">
-            <div className="rounded-xl border border-neutral-300 bg-neutral-100/80 p-6 shadow-sm transition-colors duration-200 hover:bg-neutral-100 focus-within:border-neutral-500 focus-within:ring-2 focus-within:ring-neutral-500/30 dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:bg-neutral-800/30">
+            <div className="rounded-xl border border-neutral-300 bg-neutral-100/80 p-6 shadow-sm transition-all duration-300 hover:shadow-lg focus-within:border-neutral-500 focus-within:ring-2 focus-within:ring-neutral-500/30 dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:shadow-black/20">
               <h3 className="mb-4 text-lg font-semibold">Enviar un mensaje</h3>
 
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -172,7 +172,7 @@ function ContactSection() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="flex w-full items-center justify-center gap-2 rounded-md bg-neutral-700 px-4 py-3 font-medium text-neutral-100 shadow-lg transition-colors duration-200 hover:bg-neutral-600 active:bg-neutral-800 disabled:opacity-50 dark:bg-neutral-600 dark:hover:bg-neutral-500 dark:active:bg-neutral-700"
+                  className="flex w-full items-center justify-center gap-2 rounded-md bg-neutral-700 px-4 py-3 font-medium text-neutral-100 shadow-lg transition-all duration-200 hover:scale-[1.02] hover:bg-neutral-600 active:scale-[0.98] disabled:opacity-50 disabled:hover:scale-100 dark:bg-neutral-600 dark:hover:bg-neutral-500"
                 >
                   {isSubmitting ? "Enviando..." : "Enviar mensaje"}
                   <Send size={16} />

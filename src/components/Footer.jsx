@@ -5,7 +5,7 @@ const Footer = () => {
         © 2024 Investigación Urgente. All rights reserved. Web design by{" "}
         <a
           href="mailto:arquitectoikerluna@gmail.com"
-          className="link-underline rounded px-1 py-0.5 text-neutral-600 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800/30 dark:hover:text-white"
+          className="link-underline text-neutral-600 transition-colors duration-200 hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-white"
         >
           Iker Luna
         </a>

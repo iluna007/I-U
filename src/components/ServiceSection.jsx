@@ -89,10 +89,10 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
           {services.map((service, index) => (
             <div
               key={index}
-              className="service-card group flex h-full flex-col rounded-xl border border-neutral-200 bg-neutral-100/80 p-5 shadow-sm transition-colors duration-200 hover:bg-neutral-100 dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:bg-neutral-800/30"
+              className="service-card group flex h-full flex-col rounded-xl border border-neutral-200 bg-neutral-100/80 p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-neutral-300 hover:shadow-lg dark:border-neutral-700 dark:bg-neutral-900/50 dark:hover:border-neutral-600 dark:hover:shadow-black/20"
             >
               <div className="mb-3 flex items-center gap-3">
-                <div className="rounded-lg bg-neutral-200 p-2 text-neutral-600 transition-colors duration-200 group-hover:bg-neutral-100 dark:bg-neutral-600/20 dark:text-neutral-300 dark:group-hover:bg-neutral-800/30">
+                <div className="rounded-lg bg-neutral-200 p-2 text-neutral-600 transition-transform duration-300 group-hover:scale-110 group-hover:bg-neutral-300 dark:bg-neutral-600/20 dark:text-neutral-300 dark:group-hover:bg-neutral-500/30">
                   {service.icon}
                 </div>
                 <h2 className="text-lg font-semibold">
@@ -106,7 +106,7 @@ Los mapeos combinan herramientas digitales y analógicas, integrando el conocimi
 
               <button
                 type="button"
-                className="w-fit rounded-lg p-1 text-left text-sm font-semibold text-neutral-600 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:text-neutral-400 dark:hover:bg-neutral-800/30 dark:hover:text-neutral-200"
+                className="w-fit text-left text-sm font-semibold text-neutral-600 transition-all duration-200 hover:gap-2 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-200"
                 onClick={() =>
                   setActiveIndex(activeIndex === index ? null : index)
                 }

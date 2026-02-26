@@ -6,7 +6,7 @@ body[data-bs-theme="dark"] {
 }
 
 body[data-bs-theme="light"] {
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 /* =========================================================
@@ -60,9 +60,9 @@ body[data-bs-theme="light"] .custom-footer,
 body[data-bs-theme="light"] #contact,
 body[data-bs-theme="light"] #services,
 body[data-bs-theme="light"] .example {
-  border-color: #000000;
+  border-color: #212529;
   background-color: #ffffff;
-  color: #000000;
+  color: #212529;
 }
 
 body[data-bs-theme="light"] .navbar-perimeter {
@@ -71,11 +71,65 @@ body[data-bs-theme="light"] .navbar-perimeter {
 
 body[data-bs-theme="light"] .custom-footer a svg,
 body[data-bs-theme="light"] #services svg {
-  color: #000000;
+  color: #212529;
 }
 
 body[data-bs-theme="light"] .thumbnail-container {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
+}
+
+/* Panel de proyectos: usa variables CSS (--projects-*) definidas por React para garantizar que el tema se aplique */
+.projects-panel,
+.projects-panel .projects-column,
+.projects-panel .projects-grid {
+  background-color: var(--projects-bg) !important;
+  color: var(--projects-text) !important;
+  border-color: var(--projects-border) !important;
+}
+
+/* Fallback si las variables no están definidas (por ejemplo, antes del primer render) */
+.projects-panel:not([style*="--projects-bg"]) {
+  --projects-bg: #000000;
+  --projects-text: #fafafa;
+  --projects-border: #525252;
+}
+
+/* Thumbnails y placeholders en modo claro */
+.projects-panel .thumbnail-container {
+  background-color: var(--projects-bg) !important;
+}
+
+.projects-panel .projects-column .bg-neutral-800 {
+  background-color: var(--projects-border) !important;
+  color: var(--projects-text) !important;
+}
+
+/* Texto y botones — heredan de variables */
+.projects-panel h2,
+.projects-panel .projects-column p,
+.projects-panel .projects-column a {
+  color: var(--projects-text) !important;
+}
+
+.projects-panel button[aria-pressed="true"] {
+  background-color: var(--projects-text) !important;
+  color: var(--projects-bg) !important;
+}
+
+.projects-panel button:not([aria-pressed="true"]) {
+  color: var(--projects-text) !important;
+  opacity: 0.8;
+}
+
+.projects-panel button:not([aria-pressed="true"]):hover {
+  background-color: var(--projects-border) !important;
+  color: var(--projects-text) !important;
+  opacity: 1;
+}
+
+.projects-panel .projects-column .border-t,
+.projects-panel .projects-column [class*="border"] {
+  border-color: var(--projects-border) !important;
 }
 
 /* =========================================================
@@ -93,12 +147,12 @@ body[data-bs-theme="light"] .thumbnail-container {
 
 body[data-bs-theme="dark"] .custom-footer a:hover svg,
 body[data-bs-theme="dark"] #services svg:hover {
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 body[data-bs-theme="light"] .custom-footer a:hover svg,
 body[data-bs-theme="light"] #services svg:hover {
-  color: #000000;
+  color: #404040;
 }
 
 /* =========================================================

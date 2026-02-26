@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
-/* Smooth scroll global */
+/* Tipografía consistente en toda la app */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 /* Selection style (monochrome) */

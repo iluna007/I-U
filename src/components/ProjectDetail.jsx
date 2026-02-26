@@ -107,7 +107,7 @@ const ProjectDetail = () => {
         <div className="relative flex items-center gap-2">
           <button
             type="button"
-            className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-400 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800/30 dark:hover:text-white md:-left-12"
+            className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-400 hover:bg-neutral-800 hover:text-white md:-left-12"
             onClick={() => scrollThumbnails(-200)}
             aria-label="Anterior"
           >
@@ -122,7 +122,7 @@ const ProjectDetail = () => {
                 type="button"
                 key={index}
                 onClick={() => handleMediaClick(item.src)}
-                className="thumbnail-container flex h-[150px] w-[150px] shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-neutral-200 transition-colors duration-200 hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-800/30"
+                className="thumbnail-container flex h-[150px] w-[150px] shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-neutral-800 transition-opacity hover:opacity-90"
               >
                 {item.type === "video" ? (
                   <img
@@ -151,7 +151,7 @@ const ProjectDetail = () => {
 
           <button
             type="button"
-            className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-400 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800/30 dark:hover:text-white md:-right-12"
+            className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded p-2 text-neutral-400 hover:bg-neutral-800 hover:text-white md:-right-12"
             onClick={() => scrollThumbnails(200)}
             aria-label="Siguiente"
           >
@@ -204,7 +204,7 @@ const ProjectDetail = () => {
       <div className="example mt-8 border-t border-neutral-700 pt-8">
         <Link
           to="/projects"
-          className="mt-4 inline-block rounded-full border border-neutral-500 px-4 py-2 text-sm font-medium text-neutral-200 transition-colors duration-200 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800/30 dark:hover:text-white"
+          className="mt-4 inline-block rounded-full border border-neutral-500 px-4 py-2 text-sm font-medium text-neutral-200 hover:bg-neutral-700"
         >
           Back to Projects
         </Link>

@@ -58,14 +58,14 @@ function ProjectDetailColumn({ project }) {
 
   if (!project) {
     return (
-      <section className="flex flex-col bg-white p-4 text-neutral-900 dark:bg-black dark:text-neutral-200 md:overflow-y-auto" aria-label="Proyecto">
+      <section className="flex flex-col bg-transparent p-4 text-neutral-900 dark:text-neutral-200 md:overflow-y-auto" aria-label="Proyecto">
         <p className="text-sm text-neutral-500 dark:text-neutral-400">No hay proyectos para este filtro.</p>
       </section>
     );
   }
 
   return (
-    <section className="flex flex-col bg-white p-4 text-neutral-900 dark:bg-black dark:text-neutral-200 md:overflow-y-auto" aria-label="Proyecto">
+    <section className="flex min-h-0 flex-col overflow-hidden bg-transparent p-4 text-neutral-900 dark:text-neutral-200 md:overflow-y-auto" aria-label="Proyecto">
       <div className="mb-4">
         <div className="mb-3">
           {selectedMedia && selectedMedia.includes("vimeo.com") ? (
@@ -224,12 +224,12 @@ const Projects = ({ setArtist }) => {
   const projectToShow = selectedProject ?? filteredProjects[0] ?? null;
 
   return (
-    <div className="example">
-      {/* 3-column horizontal layout: fondo negro, línea perimetral y tema claro/oscuro */}
-      <div className="grid w-full grid-cols-1 border border-neutral-300 bg-white dark:border-neutral-500 dark:bg-black md:grid-cols-[minmax(180px,0.5fr)_minmax(260px,1fr)_minmax(0,2.5fr)]">
+    <div className="example flex h-[calc(100vh-7rem)] min-h-0 flex-col overflow-hidden">
+      {/* 3-column horizontal layout: altura fija, scroll solo en lista de proyectos */}
+      <div className="grid min-h-0 w-full flex-1 grid-cols-1 border border-neutral-300 bg-transparent dark:border-neutral-500 md:grid-cols-[minmax(180px,0.5fr)_minmax(260px,1fr)_minmax(0,2.5fr)]">
         {/* Col 1: Ejes de trabajo */}
         <section
-          className="flex flex-col border-r border-neutral-300 bg-white p-4 text-neutral-900 dark:border-neutral-500 dark:bg-black dark:text-neutral-200 md:overflow-y-auto"
+          className="flex min-h-0 flex-col overflow-hidden border-r border-neutral-300 bg-transparent p-4 text-neutral-900 dark:border-neutral-500 dark:text-neutral-200"
           aria-label="Ejes de trabajo"
         >
           <h2 className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400">
@@ -260,12 +260,12 @@ const Projects = ({ setArtist }) => {
           </p>
         </section>
 
-        {/* Col 2: Lista de proyectos (tarjetas) */}
+        {/* Col 2: Lista de proyectos (tarjetas) — scroll solo aquí */}
         <section
-          className="flex flex-col border-r border-neutral-300 bg-white p-4 text-neutral-900 dark:border-neutral-500 dark:bg-black dark:text-neutral-200 md:overflow-y-auto"
+          className="flex min-h-0 flex-col overflow-hidden border-r border-neutral-300 bg-transparent p-4 text-neutral-900 dark:border-neutral-500 dark:text-neutral-200"
           aria-label="Lista de proyectos"
         >
-          <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400">
+          <h2 className="mb-3 shrink-0 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400">
             Proyectos
           </h2>
           {filteredProjects.length === 0 ? (
@@ -273,7 +273,7 @@ const Projects = ({ setArtist }) => {
               No hay proyectos para este filtro.
             </p>
           ) : (
-            <ul className="flex-1 space-y-1 overflow-y-auto pr-1">
+            <ul className="min-h-0 flex-1 space-y-1 overflow-y-auto pr-1">
               {filteredProjects.map((project) => {
                 const isActive =
                   projectToShow && project.id === projectToShow.id;

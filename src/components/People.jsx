@@ -68,11 +68,11 @@ function People() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {people.map((p, i) => (
             <div key={i} className="group flex flex-col">
-              <div className="overflow-hidden rounded-xl p-4 transition-colors duration-200 hover:bg-neutral-800/30">
+              <div className="overflow-hidden rounded-xl p-4 transition-colors duration-200 hover:bg-neutral-100 dark:hover:bg-neutral-800/30">
                 <img
                   src={p.foto}
                   alt={p.nombre}
-                  className="mb-3 h-auto w-full rounded-lg object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="mb-3 h-auto w-full rounded-lg object-cover"
                 />
                 <h3 className="text-lg font-semibold">{p.nombre}</h3>
                 <p className="mb-1 text-sm text-neutral-400">

@@ -2,7 +2,7 @@
    Body background by theme
    ========================================================= */
 body[data-bs-theme="dark"] {
-  background-color: #171717;
+  background-color: #000000;
 }
 
 body[data-bs-theme="light"] {
@@ -16,7 +16,8 @@ body[data-bs-theme="light"] {
 .custom-footer,
 #contact,
 #services,
-.example {
+.example,
+.navbar-perimeter {
   border-width: 1px;
   border-style: solid;
   transition:
@@ -34,8 +35,12 @@ body[data-bs-theme="dark"] #contact,
 body[data-bs-theme="dark"] #services,
 body[data-bs-theme="dark"] .example {
   border-color: #ffffff;
-  background-color: #212529;
+  background-color: #000000;
   color: #ffffff;
+}
+
+body[data-bs-theme="dark"] .navbar-perimeter {
+  border-color: #ffffff;
 }
 
 body[data-bs-theme="dark"] .custom-footer a svg,
@@ -44,7 +49,7 @@ body[data-bs-theme="dark"] #services svg {
 }
 
 body[data-bs-theme="dark"] .thumbnail-container {
-  background-color: #212529;
+  background-color: #000000;
 }
 
 /* =========================================================
@@ -58,6 +63,10 @@ body[data-bs-theme="light"] .example {
   border-color: #212529;
   background-color: #ffffff;
   color: #212529;
+}
+
+body[data-bs-theme="light"] .navbar-perimeter {
+  border-color: #212529;
 }
 
 body[data-bs-theme="light"] .custom-footer a svg,

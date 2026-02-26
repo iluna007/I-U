@@ -32,13 +32,13 @@ function Navbar({ theme, toggleTheme }) {
   }, [location]);
 
   return (
-    <nav className={`sticky top-0 z-50 border-b shadow-lg backdrop-blur-md transition-all duration-300 ${
+    <nav className={`navbar-perimeter sticky top-0 z-50 border shadow-lg backdrop-blur-md transition-all duration-300 ${
         theme === "dark"
           ? "border-neutral-800 bg-neutral-900/90 shadow-black/10"
           : "border-neutral-200 bg-white/95 shadow-neutral-900/5"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-1 py-1 md:py-1">
         <NavLink
           to="/"
           className="flex items-center gap-2 transition-transform duration-200 hover:scale-105 focus:scale-105"
@@ -56,7 +56,7 @@ function Navbar({ theme, toggleTheme }) {
 
         <button
           type="button"
-          className={`inline-flex items-center justify-center rounded-lg p-2 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-2 md:hidden ${
+          className={`inline-flex items-center justify-center rounded-lg p-0 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-neutral-250 focus:ring-offset-0 md:hidden ${
             theme === "dark"
               ? "text-neutral-200 hover:bg-neutral-800 hover:text-white focus:ring-offset-neutral-900"
               : "text-neutral-700 hover:bg-neutral-100 focus:ring-offset-white"
@@ -163,6 +163,7 @@ function Navbar({ theme, toggleTheme }) {
             </li>
           </ul>
         </div>
+
       </div>
     </nav>
   );

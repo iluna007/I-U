@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Archives (too large for GitHub)
+*.zip
+
+# Repositorio independiente (github.com/iluna007/biotorlabs)
+biotorlab/
